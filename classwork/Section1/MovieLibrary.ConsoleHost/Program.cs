@@ -9,9 +9,36 @@ int releaseYear = 1900;
 string rating = "";
 bool isClassic = false;
 
-Console.WriteLine("Enter a title: ");
-Console.WriteLine("Enter an optional description: ");
-Console.WriteLine("Enter a run length (in minutes): ");
-Console.WriteLine("Enter the release year: ");
-Console.WriteLine("Enter a MPAA rating: ");
+
+title = ReadString("Enter a title: ");
+description = ReadString("Enter an optional description: ");
+runLength = ReadInt32("Enter a run length (in minutes): ");
+releaseYear = ReadInt32("Enter the release year: ");
+rating = ReadString("Enter a MPAA rating: ");
 Console.WriteLine("Is this a classic: ");
+
+int ReadInt32 ( string message )
+{ 
+    Console.Write(message);
+    string value = Console.ReadLine();
+
+    //inline variable declaration
+    ////int result;
+    if (Int32.TryParse(value, out int result))
+        return result;
+
+    return -1;
+    
+}
+
+string ReadString ( string message )
+{
+    Console.Write(message);
+
+    string value = Console.ReadLine();
+
+    return value;
+
+}
+
+
