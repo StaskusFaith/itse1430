@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaithStaskus.PcBuilder.ConsoleHost", "FaithStaskus.PcBuilder.ConsoleHost\FaithStaskus.PcBuilder.ConsoleHost.csproj", "{4AA19D6F-F9CD-4A17-90F2-39AB0025D405}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AA19D6F-F9CD-4A17-90F2-39AB0025D405}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AA19D6F-F9CD-4A17-90F2-39AB0025D405}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AA19D6F-F9CD-4A17-90F2-39AB0025D405}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AA19D6F-F9CD-4A17-90F2-39AB0025D405}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D5DA6E9-EFC2-4017-BAA3-53B4E5A569EB}
+	EndGlobalSection
+EndGlobal
